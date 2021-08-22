@@ -1,0 +1,183 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+    color: #40514E;
+}
+h1
+{
+    font-size: 5.625rem;  
+    /*100%==16px;so 90px is equivalent to562.5% in static pages
+    use of percentage only in case of Dynamic scaling like if changes its chrome font to "Extra large" then in that case our size of text will also vary accordingly however this does happen in case of static scaling*/
+    /*Other way of using Dynamic scaling is to use "em"
+    1em==100%==16px
+    for example:- font-size: 2rem;*/
+    /*In case of Dynamic scaling the font size get added to the size of it's parent so in order to recover from this situation we use rem:- It ignores all of it's parent setting */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+h2
+{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+.pro
+{
+    text-decoration: underline;
+}
+/*.bottom-cloud
+{
+    position: absolute;  
+    // doing this way places the lower coud at more or less random position as we have not given any kind of movement
+}*/
+.top-container
+{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud
+{
+    position: absolute; 
+    bottom: 300px;
+    left: 250px; 
+}
+hr
+{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+.font-weight
+{
+    /* The font-weight property sets how thick or thin characters in text should be displayed.*/
+    font-weight: normal;
+}
+p{
+    line-height: 2;
+}
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+}  
+.circular--portrait img 
+{
+    width: 100%;
+    height: auto;
+}
+.skill-row
+{
+    width: 70%;
+    margin: 100px auto;
+    text-align: left;
+}
+.computer-image
+{
+    border-radius: 100%;
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+}
+.netflix-image
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.bottom-container
+{
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding: 50px;
+}
+.middle-container
+{
+    margin: 100px 0;
+}
+.intro
+{
+    width: 40%;
+    margin: 0 auto;
+}
+.contact-message
+{
+    width: 40%;
+    margin: 40px auto 60px;
+    padding-bottom: 50px;
+}
+.footer-link
+{
+    color: #11999E;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover
+{
+    color: #EAF6F6;
+}
+.footer-text
+{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.BUTTON_JYT {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.BUTTON_JYT:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
